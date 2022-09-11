@@ -1,0 +1,141 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #0A3871;
+  margin-left: 20px;
+}
+
+header {
+  margin: 20px;
+}
+
+.caixa {
+  width: 700px;
+}
+
+.secao1 {
+  border: none;
+  background: D8DFE8;
+  font-size: 32px;
+  resize: none;
+  border-radius: 10px;
+  width: 600px; 
+}
+
+.secao1::placeholder {
+  color: #000000;
+}
+
+.observacao {
+  font-size: 30px;
+}
+
+
+.encriptar {
+  background: #000000;
+  color: #FFFFFF;
+  padding: 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 24px;
+  width: 328px;
+  height: 67px;
+}
+
+.encriptar:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.desencriptar {
+  background: #D8DFE8;
+  color: #000000;
+  padding: 24px;
+  font-size: 16px;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  width: 328px;
+  height: 67px;
+  margin: 0 0 0 20px;
+}
+
+.desencriptar:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.retangulo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: absolute;
+  width: 400px;
+  height: 540px;
+  left: 900px;
+  top: 40px;
+}
+
+.secao2 {
+  background: D8DFE8;
+  background-image: url("./imagens/boneco.png");
+  width: 300px;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  resize: none;
+  font-size: 20px; 
+}
+
+.secao2::placeholder {
+  color: #000000;
+  font-size: 24px;
+}
+
+.copiar {
+  font-size: 16px;
+  background: #6666FF;
+  color: #FFFFFF;
+  padding: 24px;
+  border: none;
+  border-radius: 24px;
+  width: 300px;
+  height: 67px;
+}
+
+.copiar:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+   .caixa {
+      width: 400px;
+  }
+
+  .secao1 {
+      margin-top: 20px;
+      width: 320px;
+  }
+
+  .desencriptar {
+     margin: 20px 0 40px;
+  }
+
+  .retangulo {
+      position: initial;
+   }
+
+  .secao2 {
+      width: 80%;
+      height: 100%;
+  }
+}
